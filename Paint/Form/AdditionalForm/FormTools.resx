@@ -117,50 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="mainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>142, 17</value>
+  <metadata name="darkSeparator1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
   </metadata>
-  <metadata name="mainMenuStrip.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="darkSeparator1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="darkToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>269, 17</value>
-  </metadata>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 54</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>55</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAHYAAAB2AAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAa1lNK2xWT45sV0/TbFdP82xXT/NsV0/TbVdQjW1VTyoAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAACAVVUGbFdQk2xXT/xsV0//bFdP/2xXT/9sV0//bFdP/2xXT/9sV0/8a1ZPkWZm
-        ZgUAAAAAAAAAAAAAAACAVVUGbVdPvGxXT/9sV0//bFdP/2xXT/9sV0//bFdP/2xXT/9sV0//bFdP/2xX
-        T/9sV0+7ZmZmBQAAAAAAAAAAbVZPlGxXT/+jlpH/lYaA/3JeV/9sV0//bFdP/2xXT/9sV0//hXVu/6KU
-        kP++tLH/bFdP/2tWT5EAAAAAbldRLGxXT/xsV0//emdg/4x7df+YiYP/fmtk/2xXT/9sV0//loaB/9DJ
-        x/+Fc2z/oZKO/2xXT/9sV0/8bVVPKmxXUJBsV0//bFdP/2xXT/+WhoH/iHdw/5WFf/98aWL/loaB/5uN
-        iP+Sgn3/z8nH/4V0bf9sV0//bFdP/21XUI1sV0/VbFdP/2xXT/9sV0//f21m/5WGgP+Rgnz/pJiT/5+Q
-        jP+Pf3n/moyH/5aGgf9sV0//bFdP/2xXT/9sV0/Ta1dP8mxXT/9sV0//bFdP/2xXT/99amP/opWQ/3hk
-        Xf/Hv7z/nI6I/5aGgf9sV0//bFdP/2xXT/9sV0//bFdP8WxXT/NsV0//bFdP/2xXT/9sV0//lYaA/6CT
-        j//Gvrv/c19X/62inf9sV0//bFdP/2xXT/9sV0//bFdP/2tXT/JsV0/VbFdP/2xXT/9sV0//rKCc/8e/
-        vP+Tg33/nY+J/6ufmv99amP/k4R+/2xXT/9sV0//bFdP/2xXT/9sV0/Ta1ZPkWxXT/9sV0//kIF6/66j
-        n/+1qqb/yMG9/5WGgP9sV0//koJ9/45+eP+NfXf/bFdP/2xXT/9sV0//bFZPjmxVTy1sV0/9bFdP/4t7
-        dP9/bWb/rqOf/6yfm/9sV0//bFdP/2xXT/+NfXf/npCL/4d1b/9sV0//bFdP/GtZTSsAAAAAbFhPl2xX
-        T/9sV0//jHt1/5GCfP9sV0//bFdP/2xXT/9sV0//bFdP/4Z1bv+ekIr/bFdP/2xXUJMAAAAAAAAAAG1J
-        SQdrV0++bFdP/2xXT/9sV0//bFdP/2xXT/9sV0//bFdP/2xXT/9sV0//bFdP/2xWUL2AVVUGAAAAAAAA
-        AAAAAAAAbUlJB21XTpZsV0/9bFdP/2xXT/9sV0//bFdP/2xXT/9sV0//bFdP/G1WT5SAVVUGAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAbFVPLWtWT5FsV0/UbFdP9GxXT/RsV0/UbFdQkG5XUSwAAAAAAAAAAAAA
-        AAAAAAAA8A8AAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIAB
-        AADAAwAA8A8AAA==
-</value>
-  </data>
 </root>

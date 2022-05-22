@@ -29,3 +29,9 @@ D:\Programming\С#\Paint2.0\Paint\Paint\obj\Debug\Paint.csproj.CoreCompileInputs
 D:\Programming\С#\Paint2.0\Paint\Paint\obj\Debug\Paint.csproj.CopyComplete
 D:\Programming\С#\Paint2.0\Paint\Paint\obj\Debug\Paint.exe
 D:\Programming\С#\Paint2.0\Paint\Paint\obj\Debug\Paint.pdb
+D:\Programming\С#\Paint2.0\Paint\Paint\obj\Debug\Paint.Form.AdditionalForm.FormSelectColor.resources
+D:\Programming\С#\Paint2.0\Paint\Paint\bin\Debug\Microsoft.Xaml.Behaviors.Design.dll
+D:\Programming\С#\Paint2.0\Paint\Paint\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Programming\С#\Paint2.0\Paint\Paint\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Programming\С#\Paint2.0\Paint\Paint\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Programming\С#\Paint2.0\Paint\Paint\obj\Debug\Paint.Form.AdditionalForm.FormTools.resources
