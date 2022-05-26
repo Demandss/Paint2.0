@@ -32,7 +32,7 @@ namespace Paint.CustomUI
         public Canvas(PictureBox box)
         {
             pictureBox = box;
-            bitmap = new Bitmap(pictureBox.Width, pictureBox.Height);
+            bitmap = new Bitmap(800, 600);
 
             graphics = Graphics.FromImage(bitmap);
             graphics.SmoothingMode = SmoothingMode.AntiAlias;

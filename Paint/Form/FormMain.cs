@@ -78,6 +78,15 @@ namespace Paint.Form
         
         private void создатьToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            DialogResult exitMessageResult = MessageBox.Show(
+                "Вы уверены что хотите пересоздать полотно, не сохранив предыдущее ?",
+                "Внимание",
+                MessageBoxButtons.YesNo);
+            if (exitMessageResult == DialogResult.No)
+            {
+                this.Show();
+                return;
+            }
             canvas.Clear();
         }
 
@@ -99,6 +108,11 @@ namespace Paint.Form
         private void журналToolStripMenuItem_Click(object sender, EventArgs e)
         {
             _fDrawHistory.Show();
+        }
+        
+        private void инструментыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _fTools.Show();
         }
         
         private void цветToolStripMenuItem_Click(object sender, EventArgs e)
@@ -138,7 +152,8 @@ namespace Paint.Form
 
         private void FormMain_SizeChanged(object sender, EventArgs e)
         {
-            canvas.Resize(pictureBox1);
+            if (this.WindowState != FormWindowState.Minimized)
+                canvas.Resize(pictureBox1);
         }
         
         private void toolStripComboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -150,10 +165,16 @@ namespace Paint.Form
         {
             canvas.pen.Width = Int64.Parse(toolStripComboBox3.Text);
         }
+        
+        private void toolStripComboBox3_TextUpdate(object sender, EventArgs e)
+        {
+            canvas.pen.Width = Int64.Parse(toolStripComboBox3.Text);
+        }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             inPicturCoodinats.Text = $"{e.Location.X}.{e.Location.Y}";
+            pictureSize.Text = $"{pictureBox1.Image.Size.Height}x{pictureBox1.Image.Size.Width}";
             canvas.OnMouseMove(e);
         }
 
