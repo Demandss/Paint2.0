@@ -132,17 +132,23 @@ namespace Paint.CustomUI
 
         public void CopySelection()
         {
+            if ((SelectionTool)tool != new SelectionTool())
+                MessageBox.Show("Невозможно копировать, без выделения области копирования!");
+                
             ((SelectionTool)tool).copy(this); 
         }
         
         public void CutSelection()
         {
-            ((SelectionTool)tool).cut(this); 
+            if ((SelectionTool)tool != new SelectionTool())
+                MessageBox.Show("Невозможно вырезать, без выделения области вырезания!");
+            
+            ((SelectionTool)tool).cut(this);
         }
         
         public void PasteSelection()
         {
-            ((SelectionTool)tool).paste(this); 
+            new SelectionTool().paste(this); 
         }
 
         #endregion

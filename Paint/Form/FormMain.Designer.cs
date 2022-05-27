@@ -449,27 +449,33 @@ namespace Paint.Form
             // журналToolStripMenuItem
             // 
             this.журналToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.журналToolStripMenuItem.Checked = true;
+            this.журналToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
             this.журналToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.журналToolStripMenuItem.Name = "журналToolStripMenuItem";
-            this.журналToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.журналToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.журналToolStripMenuItem.Text = "Журнал";
             this.журналToolStripMenuItem.Click += new System.EventHandler(this.журналToolStripMenuItem_Click);
             // 
             // инструментыToolStripMenuItem
             // 
             this.инструментыToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.инструментыToolStripMenuItem.Checked = true;
+            this.инструментыToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
             this.инструментыToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.инструментыToolStripMenuItem.Name = "инструментыToolStripMenuItem";
-            this.инструментыToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.инструментыToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.инструментыToolStripMenuItem.Text = "Инструменты";
             this.инструментыToolStripMenuItem.Click += new System.EventHandler(this.инструментыToolStripMenuItem_Click);
             // 
             // цветToolStripMenuItem
             // 
             this.цветToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.цветToolStripMenuItem.Checked = true;
+            this.цветToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
             this.цветToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.цветToolStripMenuItem.Name = "цветToolStripMenuItem";
-            this.цветToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.цветToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.цветToolStripMenuItem.Text = "Цвет";
             this.цветToolStripMenuItem.Click += new System.EventHandler(this.цветToolStripMenuItem_Click);
             // 

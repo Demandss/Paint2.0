@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using System.Windows.Forms;
 using Paint.CustomUI;
 using Paint.exact;
 using Paint.Form.Pattern;

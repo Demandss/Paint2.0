@@ -107,17 +107,38 @@ namespace Paint.Form
 
         private void журналToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (журналToolStripMenuItem.Checked)
+            {
+                _fDrawHistory.Hide();
+                журналToolStripMenuItem.CheckState = CheckState.Unchecked;
+                return;
+            }
             _fDrawHistory.Show();
+            журналToolStripMenuItem.CheckState = CheckState.Checked;
         }
         
         private void инструментыToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (инструментыToolStripMenuItem.Checked)
+            {
+                _fTools.Hide();
+                инструментыToolStripMenuItem.CheckState = CheckState.Unchecked;
+                return;
+            }
             _fTools.Show();
+            инструментыToolStripMenuItem.CheckState = CheckState.Checked;
         }
         
         private void цветToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (цветToolStripMenuItem.Checked)
+            {
+                _fSelectColor.Hide();
+                цветToolStripMenuItem.CheckState = CheckState.Unchecked;
+                return;
+            }
             _fSelectColor.Show();
+            цветToolStripMenuItem.CheckState = CheckState.Checked;
         }
         
         private void отменитьToolStripMenuItem_Click(object sender, EventArgs e)
